@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HechosCuriososActivity"
+    android:background="#ff4fff61"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SabiasQueTextView"
+        android:textSize="20sp"
+        android:background="#16f0e9eb"
+        android:textColor="#67f0ecf0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Las hormigas se estiran cuando se despiertan por la mañana"
+        android:id="@+id/HechoCuriosoTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:background="@android:color/transparent"
+        android:autoText="false"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver otro hecho curioso"
+        android:id="@+id/VerOtroButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffffff"
+        android:onClick="factButtonAction"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
